@@ -1,0 +1,22 @@
+{
+  "name": "websm",
+  "version": "1.0.0",
+  "description": "数据库后台",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaoCheng123/webSM.git"
+  },
+  "author": "xiaocheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XiaoCheng123/webSM/issues"
+  },
+  "homepage": "https://github.com/XiaoCheng123/webSM#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
