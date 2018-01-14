@@ -24,7 +24,7 @@ exports.get_click = function(req, res) {
         Scome: rows[i].Scome,
         Sminzu: rows[i].Sminzu,
         Sjiguan: rows[i].Sjiguan,
-        Sdistrict: rows[i].Sdistrict,
+        Sdistrist: rows[i].Sdistrist,
         Sphone: rows[i].Sphone
       }
     }
