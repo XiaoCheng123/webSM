@@ -10,6 +10,7 @@ var reviseStudent = require('../controller/revise-student')
 var searchGrade = require('../controller/searchGrade')
 var addGrade = require('../controller/add-grade')
 var deleteGrade = require('../controller/delete-grade')
+var reviseGrade = require('../controller/revise-grade')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -27,5 +28,6 @@ router.post('/reviseStudent', reviseStudent.get_click)
 router.get('/searchGrade', searchGrade.get_click)
 router.post('/addGrade', addGrade.get_click)
 router.post('/deleteGrade', deleteGrade.get_click)
+router.post('/reviseGrade', reviseGrade.get_click)
 
 module.exports = router;
